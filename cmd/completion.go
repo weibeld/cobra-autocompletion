@@ -22,35 +22,69 @@ package cmd
 
 import (
 	"fmt"
-
 	"github.com/spf13/cobra"
+	"os"
 )
+
+var long = fmt.Sprintf(`Output completion script for Bash and Zsh.
+
+Sourcing the completion script in your shell enables completion for %s.
+How to do this depends on your shell and OS:
+
+Bash on Linux
+=============
+  The completion script depends on bash-completion. Install it with:
+
+    $ apt-get install bash-completion
+
+  Then make sure the completion script gets sourced in all your shell sessions:
+
+    $ echo 'source <(%s completion bash)' >>~/.bashrc
+    # or
+    $ %s completion bash >/etc/bash_completion.d/%s
+
+Bash on macOS
+=============
+  The completion script depends on bash-completion v2 which depens on Bash 4.1+.
+  By default macOS contains Bash 3.2. To use this completion script, you need to
+  install Bash 4.1+ (see https://itnext.io/upgrading-bash-on-macos-7138bd1066ba).
+
+  After upgrading to Bash 4.1+, install bash-completion v2:
+
+    $ brew install bash-completion@2
+
+  Now make sure the completion script gets sourced in all your shell sessions:
+
+    $ echo 'source <(%s completion bash)' >>~/.bashrc
+    # or
+    $ %s completion bash >/usr/local/etc/bash_completion.d/%s
+
+Zsh
+===
+  The completion script doesn't have any dependencies for Zsh! Simply make sure
+  it gets sourced in your .zshrc file:
+
+    $ echo 'source <(%s completion zsh)' >>~/.zshrc`,
+	rootCmd.Use, rootCmd.Use, rootCmd.Use, rootCmd.Use, rootCmd.Use, rootCmd.Use,
+	rootCmd.Use, rootCmd.Use)
 
 // completionCmd represents the completion command
 var completionCmd = &cobra.Command{
-	Use:   "completion",
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Use:                   "completion bash|zsh",
+	Short:                 "Output completion script for Bash and Zsh",
+	Long:                  long,
+	Args:                  cobra.ExactValidArgs(1),
+	ValidArgs:             []string{"bash", "zsh"},
+	DisableFlagsInUseLine: true,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("completion called")
+		if args[0] == "bash" {
+			rootCmd.GenBashCompletion(os.Stdout)
+		} else {
+			rootCmd.GenZshCompletion(os.Stdout)
+		}
 	},
 }
 
 func init() {
 	rootCmd.AddCommand(completionCmd)
-
-	// Here you will define your flags and configuration settings.
-
-	// Cobra supports Persistent Flags which will work for this command
-	// and all subcommands, e.g.:
-	// completionCmd.PersistentFlags().String("foo", "", "A help for foo")
-
-	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// completionCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
