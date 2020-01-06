@@ -22,7 +22,7 @@ package cmd
 
 import (
 	//"fmt"
-	"github.com/spf13/cobra"
+	"github.com/weibeld/cobra"
 	//"github.com/spf13/cobra/doc"
 	//"log"
 	"os"
@@ -38,6 +38,10 @@ var rootCmd = &cobra.Command{
 article with a canonical tag set to a URL of your choice.`,
 	Version: "0.0.1",
 	//	Run: func(cmd *cobra.Command, args []string) { },
+}
+
+func init() {
+	rootCmd.PersistentFlags().StringP("config", "c", "foo", "Description")
 }
 
 // Execute adds all child commands to the root command and sets flags appropriately.

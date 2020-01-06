@@ -23,17 +23,21 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/spf13/cobra"
+	"github.com/weibeld/cobra"
 )
 
 // draftCmd represents the createDraft command
 var draftCmd = &cobra.Command{
-	Use:   "draft",
-	Short: "Create a draft article in your Medium account.",
-	Long:  `Create a draft article in your Medium account.`,
-	Args:  cobra.NoArgs,
+	Use:     "draft",
+	Aliases: []string{"drft", "dr"},
+	Short:   "Create a draft article in your Medium account.",
+	Long:    `Create a draft article in your Medium account.`,
+	Args:    cobra.NoArgs,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println(args)
+		token, _ := cmd.Flags().GetString("integration-token")
+		title, _ := cmd.Flags().GetString("title")
+		url, _ := cmd.Flags().GetString("canoncial-url")
+		fmt.Println(token, title, url)
 	},
 }
 
@@ -43,5 +47,10 @@ func init() {
 	draftCmd.MarkFlagRequired("title")
 	draftCmd.Flags().StringP("integration-token", "i", "", "your Medium integration token (required)")
 	draftCmd.MarkFlagRequired("integration-token")
-	draftCmd.Flags().StringP("canonical-url", "c", "", "canonical URL to be set for the article")
+	draftCmd.Flags().StringP("canonical-url", "u", "", "canonical URL to be set for the article")
+	draftCmd.Flags().BoolP("boolP", "b", false, "Description")
+	draftCmd.Flags().Bool("bool", false, "Description")
+	draftCmd.Flags().String("string", "foo", "your Medium integration token (required)")
+	draftCmd.PersistentFlags().Bool("persistentBool", false, "Description")
+	draftCmd.PersistentFlags().Bool("persistentBoolTrue", true, "Description")
 }

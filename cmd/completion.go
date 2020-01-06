@@ -22,13 +22,13 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/spf13/cobra"
+	"github.com/weibeld/cobra"
 	"os"
 )
 
 var long = fmt.Sprintf(`Output completion script for Bash and Zsh.
 
-Sourcing the completion script in your shell enables completion for %s.
+Sourcing the completion script in your shell enables completion for %[1]s.
 How to do this depends on your shell and OS:
 
 Bash on Linux
@@ -39,9 +39,9 @@ Bash on Linux
 
   Then make sure the completion script gets sourced in all your shell sessions:
 
-    $ echo 'source <(%s completion bash)' >>~/.bashrc
+    $ echo 'source <(%[1]s completion bash)' >>~/.bashrc
     # or
-    $ %s completion bash >/etc/bash_completion.d/%s
+    $ %[1]s completion bash >/etc/bash_completion.d/%[1]s
 
 Bash on macOS
 =============
@@ -55,18 +55,16 @@ Bash on macOS
 
   Now make sure the completion script gets sourced in all your shell sessions:
 
-    $ echo 'source <(%s completion bash)' >>~/.bashrc
+    $ echo 'source <(%[1]s completion bash)' >>~/.bashrc
     # or
-    $ %s completion bash >/usr/local/etc/bash_completion.d/%s
+    $ %[1]s completion bash >/usr/local/etc/bash_completion.d/%[1]s
 
 Zsh
 ===
   The completion script doesn't have any dependencies for Zsh! Simply make sure
   it gets sourced in your .zshrc file:
 
-    $ echo 'source <(%s completion zsh)' >>~/.zshrc`,
-	rootCmd.Use, rootCmd.Use, rootCmd.Use, rootCmd.Use, rootCmd.Use, rootCmd.Use,
-	rootCmd.Use, rootCmd.Use)
+    $ echo 'source <(%[1]s completion zsh)' >>~/.zshrc`, rootCmd.Use)
 
 // completionCmd represents the completion command
 var completionCmd = &cobra.Command{

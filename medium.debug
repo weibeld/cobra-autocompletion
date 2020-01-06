@@ -1,0 +1,3292 @@
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+__medium_handle_command: looking for _medium_root_command
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+__medium_handle_command: looking for _medium_root_command
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+__medium_handle_command: looking for _medium_draft
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+__medium_handle_command: looking for _medium_root_command
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+__medium_handle_command: looking for _medium_draft
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --i][0m, cur=--i, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --i][0m, cur=--i, cword=2, prev=draft
+__medium_handle_command: looking for _medium_root_command
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --i][0m, cur=--i, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --i][0m, cur=--i, cword=2, prev=draft
+__medium_handle_command: looking for _medium_draft
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--i[34;1m][0m, cur=--i, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--i[34;1m][0m, cur=--i, cword=2, prev=draft
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --i][0m, cur=--i, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --i][0m, cur=--i, cword=2, prev=draft
+__medium_handle_command: looking for _medium_root_command
+_medium_root_command:
+  commands = [completion draft]
+  command_aliases = []
+  flags= []
+  two_word_flags= []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --i][0m, cur=--i, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --i][0m, cur=--i, cword=2, prev=draft
+__medium_handle_command: looking for _medium_draft
+_medium_draft:
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags= [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--i[34;1m][0m, cur=--i, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--i[34;1m][0m, cur=--i, cword=2, prev=draft
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+__medium_handle_command: looking for _medium_root_command
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = [draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dra][0m, cur=dra, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dra][0m, cur=dra, cword=1, prev=medium
+__medium_handle_command: looking for _medium_root_command
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdra[34;1m][0m, cur=dra, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdra[34;1m][0m, cur=dra, cword=1, prev=medium
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft ][0m, cur=, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft ][0m, cur=, cword=2, prev=draft
+__medium_handle_command: looking for _medium_root_command
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m ][0m, cur=, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m ][0m, cur=, cword=2, prev=draft
+__medium_handle_command: looking for _medium_draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m[34;1m][0m, cur=, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m[34;1m][0m, cur=, cword=2, prev=draft
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m{FUNCNAME[0]}:[0m COMPREPLY=[draft]
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dra][0m, cur=dra, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dra][0m, cur=dra, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdra[34;1m][0m, cur=dra, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdra[34;1m][0m, cur=dra, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[draft]
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[draft]
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[36;1m__medium_handle_reply:[0m COMPREPLY=[36;1m[draft][0m
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[36;1m__medium_handle_reply: COMPREPLY=[draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[36;1m__medium_handle_reply: COMPREPLY=[--integration-token= -i --title= -t][0m
+
+[34;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[34;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[34;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[34;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[34;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply: COMPREPLY=[draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[32;1m__medium_handle_reply: COMPREPLY=[draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[32;1m__medium_handle_reply: COMPREPLY=[--integration-token= -i --title= -t][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[32;1m__medium_handle_reply: COMPREPLY=[--integration-token= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --i][0m, cur=--i, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --i][0m, cur=--i, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --i][0m, cur=--i, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --i][0m, cur=--i, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--i[34;1m][0m, cur=--i, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--i[34;1m][0m, cur=--i, cword=2, prev=draft
+[32;1m__medium_handle_reply: COMPREPLY=[--integration-token=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i][0m, cur=-i, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i][0m, cur=-i, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i][0m, cur=-i, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i][0m, cur=-i, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m][0m, cur=-i, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m][0m, cur=-i, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[-i][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --t][0m, cur=--t, cword=3, prev=-i
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --t][0m, cur=--t, cword=3, prev=-i
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --t][0m, cur=--t, cword=3, prev=-i
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --t][0m, cur=--t, cword=3, prev=-i
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --t][0m, cur=--t, cword=3, prev=-i
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --t][0m, cur=--t, cword=3, prev=-i
+__medium_handle_flag: found a flag -i, skip the next argument
+[31;1m__medium_handle_word:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --t [32;1m[34;1m][0m, cur=--t, cword=3, prev=-i
+[31;1m__medium_handle_reply:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --t [32;1m[34;1m][0m, cur=--t, cword=3, prev=-i
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--title= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bo][0m, cur=--bo, cword=4, prev=--title=
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bo][0m, cur=--bo, cword=4, prev=--title=
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bo][0m, cur=--bo, cword=4, prev=--title=
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bo][0m, cur=--bo, cword=4, prev=--title=
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bo][0m, cur=--bo, cword=4, prev=--title=
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bo][0m, cur=--bo, cword=4, prev=--title=
+__medium_handle_flag: found a flag -i, skip the next argument
+[31;1m__medium_handle_word:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bo[34;1m][0m, cur=--bo, cword=4, prev=--title=
+[31;1m__medium_handle_reply:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bo[34;1m][0m, cur=--bo, cword=4, prev=--title=
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--bool --boolP][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bool][0m, cur=--bool, cword=4, prev=--title=
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bool][0m, cur=--bool, cword=4, prev=--title=
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bool][0m, cur=--bool, cword=4, prev=--title=
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bool][0m, cur=--bool, cword=4, prev=--title=
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bool][0m, cur=--bool, cword=4, prev=--title=
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bool][0m, cur=--bool, cword=4, prev=--title=
+__medium_handle_flag: found a flag -i, skip the next argument
+[31;1m__medium_handle_word:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bool[34;1m][0m, cur=--bool, cword=4, prev=--title=
+[31;1m__medium_handle_reply:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bool[34;1m][0m, cur=--bool, cword=4, prev=--title=
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--bool --boolP][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bool][0m, cur=--bool, cword=4, prev=--title=
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bool][0m, cur=--bool, cword=4, prev=--title=
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bool][0m, cur=--bool, cword=4, prev=--title=
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bool][0m, cur=--bool, cword=4, prev=--title=
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bool][0m, cur=--bool, cword=4, prev=--title=
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bool][0m, cur=--bool, cword=4, prev=--title=
+__medium_handle_flag: found a flag -i, skip the next argument
+[31;1m__medium_handle_word:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bool[34;1m][0m, cur=--bool, cword=4, prev=--title=
+[31;1m__medium_handle_reply:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bool[34;1m][0m, cur=--bool, cword=4, prev=--title=
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--bool --boolP][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bool ][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bool ][0m, cur=, cword=5, prev=--bool
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bool ][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bool ][0m, cur=, cword=5, prev=--bool
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bool ][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bool ][0m, cur=, cword=5, prev=--bool
+__medium_handle_flag: found a flag -i, skip the next argument
+[31;1m__medium_handle_word:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bool[34;1m ][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_flag:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bool[34;1m ][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_word:[0m [32;1mc=5[0m, words=[34;1m[medium draft -i --title= --bool [32;1m[34;1m][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_reply:[0m [32;1mc=5[0m, words=[34;1m[medium draft -i --title= --bool [32;1m[34;1m][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bool ][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bool ][0m, cur=, cword=5, prev=--bool
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bool ][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bool ][0m, cur=, cword=5, prev=--bool
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bool ][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bool ][0m, cur=, cword=5, prev=--bool
+__medium_handle_flag: found a flag -i, skip the next argument
+[31;1m__medium_handle_word:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bool[34;1m ][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_flag:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bool[34;1m ][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_word:[0m [32;1mc=5[0m, words=[34;1m[medium draft -i --title= --bool [32;1m[34;1m][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_reply:[0m [32;1mc=5[0m, words=[34;1m[medium draft -i --title= --bool [32;1m[34;1m][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bool ][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bool ][0m, cur=, cword=5, prev=--bool
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bool ][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bool ][0m, cur=, cword=5, prev=--bool
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bool ][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bool ][0m, cur=, cword=5, prev=--bool
+__medium_handle_flag: found a flag -i, skip the next argument
+[31;1m__medium_handle_word:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bool[34;1m ][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_flag:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bool[34;1m ][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_word:[0m [32;1mc=5[0m, words=[34;1m[medium draft -i --title= --bool [32;1m[34;1m][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_reply:[0m [32;1mc=5[0m, words=[34;1m[medium draft -i --title= --bool [32;1m[34;1m][0m, cur=, cword=5, prev=--bool
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bool -][0m, cur=-, cword=5, prev=--bool
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bool -][0m, cur=-, cword=5, prev=--bool
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bool -][0m, cur=-, cword=5, prev=--bool
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bool -][0m, cur=-, cword=5, prev=--bool
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bool -][0m, cur=-, cword=5, prev=--bool
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bool -][0m, cur=-, cword=5, prev=--bool
+__medium_handle_flag: found a flag -i, skip the next argument
+[31;1m__medium_handle_word:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bool[34;1m -][0m, cur=-, cword=5, prev=--bool
+[31;1m__medium_handle_flag:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bool[34;1m -][0m, cur=-, cword=5, prev=--bool
+[31;1m__medium_handle_word:[0m [32;1mc=5[0m, words=[34;1m[medium draft -i --title= --bool [32;1m-[34;1m][0m, cur=-, cword=5, prev=--bool
+[31;1m__medium_handle_reply:[0m [32;1mc=5[0m, words=[34;1m[medium draft -i --title= --bool [32;1m-[34;1m][0m, cur=-, cword=5, prev=--bool
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --canonical-url= -u --integration-token= -i --string= --title= -t][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bool --b][0m, cur=--b, cword=5, prev=--bool
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bool --b][0m, cur=--b, cword=5, prev=--bool
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bool --b][0m, cur=--b, cword=5, prev=--bool
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bool --b][0m, cur=--b, cword=5, prev=--bool
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bool --b][0m, cur=--b, cword=5, prev=--bool
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bool --b][0m, cur=--b, cword=5, prev=--bool
+__medium_handle_flag: found a flag -i, skip the next argument
+[31;1m__medium_handle_word:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bool[34;1m --b][0m, cur=--b, cword=5, prev=--bool
+[31;1m__medium_handle_flag:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bool[34;1m --b][0m, cur=--b, cword=5, prev=--bool
+[31;1m__medium_handle_word:[0m [32;1mc=5[0m, words=[34;1m[medium draft -i --title= --bool [32;1m--b[34;1m][0m, cur=--b, cword=5, prev=--bool
+[31;1m__medium_handle_reply:[0m [32;1mc=5[0m, words=[34;1m[medium draft -i --title= --bool [32;1m--b[34;1m][0m, cur=--b, cword=5, prev=--bool
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--bool --boolP][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bool --c][0m, cur=--c, cword=5, prev=--bool
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i --title= --bool --c][0m, cur=--c, cword=5, prev=--bool
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bool --c][0m, cur=--c, cword=5, prev=--bool
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i --title= --bool --c][0m, cur=--c, cword=5, prev=--bool
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bool --c][0m, cur=--c, cword=5, prev=--bool
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m --title= --bool --c][0m, cur=--c, cword=5, prev=--bool
+__medium_handle_flag: found a flag -i, skip the next argument
+[31;1m__medium_handle_word:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bool[34;1m --c][0m, cur=--c, cword=5, prev=--bool
+[31;1m__medium_handle_flag:[0m [32;1mc=4[0m, words=[34;1m[medium draft -i --title= [32;1m--bool[34;1m --c][0m, cur=--c, cword=5, prev=--bool
+[31;1m__medium_handle_word:[0m [32;1mc=5[0m, words=[34;1m[medium draft -i --title= --bool [32;1m--c[34;1m][0m, cur=--c, cword=5, prev=--bool
+[31;1m__medium_handle_reply:[0m [32;1mc=5[0m, words=[34;1m[medium draft -i --title= --bool [32;1m--c[34;1m][0m, cur=--c, cword=5, prev=--bool
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--canonical-url= --canonical-url=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m -][0m, cur=-, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m -][0m, cur=-, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m-[34;1m][0m, cur=-, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m-[34;1m][0m, cur=-, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= -i --title= -t][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= -i --title= -t][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= -i --title= -t][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m d][0m, cur=d, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m d][0m, cur=d, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1md[34;1m][0m, cur=d, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1md[34;1m][0m, cur=d, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[completion draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[completion draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[completion draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[medium][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[completion draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[completion draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[completion draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[completion draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= -i --title= -t][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= -i --title= -t][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= []
+  two_word_flags = []
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --][0m, cur=--, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --][0m, cur=--, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--[34;1m][0m, cur=--, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--[34;1m][0m, cur=--, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--config= --config=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config=][0m, cur=, cword=1, prev=--config
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config=][0m, cur=, cword=1, prev=--config
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config=[34;1m][0m, cur=, cword=1, prev=--config
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config=[34;1m][0m, cur=, cword=1, prev=--config
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --con][0m, cur=--con, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --con][0m, cur=--con, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--con[34;1m][0m, cur=--con, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--con[34;1m][0m, cur=--con, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--config= --config=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config foo -][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config foo -][0m, cur=-, cword=3, prev=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config[34;1m foo -][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config[34;1m foo -][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium --config [32;1mfoo[34;1m -][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_noun:[0m [32;1mc=2[0m, words=[34;1m[medium --config [32;1mfoo[34;1m -][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium --config foo [32;1m-[34;1m][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=3[0m, words=[34;1m[medium --config foo [32;1m-[34;1m][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--config= --config= -c][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config foo -][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config foo -][0m, cur=-, cword=3, prev=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config[34;1m foo -][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config[34;1m foo -][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium --config [32;1mfoo[34;1m -][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_noun:[0m [32;1mc=2[0m, words=[34;1m[medium --config [32;1mfoo[34;1m -][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium --config foo [32;1m-[34;1m][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=3[0m, words=[34;1m[medium --config foo [32;1m-[34;1m][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--config= --config= -c][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config foo -][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config foo -][0m, cur=-, cword=3, prev=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config[34;1m foo -][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config[34;1m foo -][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium --config [32;1mfoo[34;1m -][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_noun:[0m [32;1mc=2[0m, words=[34;1m[medium --config [32;1mfoo[34;1m -][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium --config foo [32;1m-[34;1m][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=3[0m, words=[34;1m[medium --config foo [32;1m-[34;1m][0m, cur=-, cword=3, prev=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--config= --config= -c][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --title foo -][0m, cur=-, cword=4, prev=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --title foo -][0m, cur=-, cword=4, prev=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --title foo -][0m, cur=-, cword=4, prev=foo
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --title foo -][0m, cur=-, cword=4, prev=foo
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--title[34;1m foo -][0m, cur=-, cword=4, prev=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--title[34;1m foo -][0m, cur=-, cword=4, prev=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium draft --title [32;1mfoo[34;1m -][0m, cur=-, cword=4, prev=foo
+[31;1m__medium_handle_noun:[0m [32;1mc=3[0m, words=[34;1m[medium draft --title [32;1mfoo[34;1m -][0m, cur=-, cword=4, prev=foo
+[31;1m__medium_handle_word:[0m [32;1mc=4[0m, words=[34;1m[medium draft --title foo [32;1m-[34;1m][0m, cur=-, cword=4, prev=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=4[0m, words=[34;1m[medium draft --title foo [32;1m-[34;1m][0m, cur=-, cword=4, prev=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= -i --title= -t][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --title foo --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --title foo --][0m, cur=--, cword=4, prev=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --title foo --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --title foo --][0m, cur=--, cword=4, prev=foo
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--title[34;1m foo --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--title[34;1m foo --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium draft --title [32;1mfoo[34;1m --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_noun:[0m [32;1mc=3[0m, words=[34;1m[medium draft --title [32;1mfoo[34;1m --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_word:[0m [32;1mc=4[0m, words=[34;1m[medium draft --title foo [32;1m--[34;1m][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=4[0m, words=[34;1m[medium draft --title foo [32;1m--[34;1m][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --title foo --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --title foo --][0m, cur=--, cword=4, prev=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --title foo --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --title foo --][0m, cur=--, cword=4, prev=foo
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--title[34;1m foo --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--title[34;1m foo --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium draft --title [32;1mfoo[34;1m --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_noun:[0m [32;1mc=3[0m, words=[34;1m[medium draft --title [32;1mfoo[34;1m --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_word:[0m [32;1mc=4[0m, words=[34;1m[medium draft --title foo [32;1m--[34;1m][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=4[0m, words=[34;1m[medium draft --title foo [32;1m--[34;1m][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --title foo --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --title foo --][0m, cur=--, cword=4, prev=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --title foo --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --title foo --][0m, cur=--, cword=4, prev=foo
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--title[34;1m foo --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--title[34;1m foo --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium draft --title [32;1mfoo[34;1m --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_noun:[0m [32;1mc=3[0m, words=[34;1m[medium draft --title [32;1mfoo[34;1m --][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_word:[0m [32;1mc=4[0m, words=[34;1m[medium draft --title foo [32;1m--[34;1m][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=4[0m, words=[34;1m[medium draft --title foo [32;1m--[34;1m][0m, cur=--, cword=4, prev=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m compl][0m, cur=compl, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m compl][0m, cur=compl, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mcompl[34;1m][0m, cur=compl, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mcompl[34;1m][0m, cur=compl, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[completion][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m completion ][0m, cur=, cword=2, prev=completion
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m completion ][0m, cur=, cword=2, prev=completion
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mcompletion[34;1m ][0m, cur=, cword=2, prev=completion
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mcompletion[34;1m ][0m, cur=, cword=2, prev=completion
+[31;1m_medium_completion:[0m
+  commands = []
+  command_aliases = []
+  flags= [--help -h --config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= [--help]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = [bash zsh]
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium completion [32;1m[34;1m][0m, cur=, cword=2, prev=completion
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium completion [32;1m[34;1m][0m, cur=, cword=2, prev=completion
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[bash zsh][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m completion ][0m, cur=, cword=2, prev=completion
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m completion ][0m, cur=, cword=2, prev=completion
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mcompletion[34;1m ][0m, cur=, cword=2, prev=completion
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mcompletion[34;1m ][0m, cur=, cword=2, prev=completion
+[31;1m_medium_completion:[0m
+  commands = []
+  command_aliases = []
+  flags= [--help -h --config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= [--help]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = [bash zsh]
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium completion [32;1m[34;1m][0m, cur=, cword=2, prev=completion
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium completion [32;1m[34;1m][0m, cur=, cword=2, prev=completion
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[bash zsh][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m completion --][0m, cur=--, cword=2, prev=completion
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m completion --][0m, cur=--, cword=2, prev=completion
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mcompletion[34;1m --][0m, cur=--, cword=2, prev=completion
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mcompletion[34;1m --][0m, cur=--, cword=2, prev=completion
+[31;1m_medium_completion:[0m
+  commands = []
+  command_aliases = []
+  flags= [--help -h --config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= [--help]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = [bash zsh]
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium completion [32;1m--[34;1m][0m, cur=--, cword=2, prev=completion
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium completion [32;1m--[34;1m][0m, cur=--, cword=2, prev=completion
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--help --config= --config=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m completion --][0m, cur=--, cword=2, prev=completion
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m completion --][0m, cur=--, cword=2, prev=completion
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mcompletion[34;1m --][0m, cur=--, cword=2, prev=completion
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mcompletion[34;1m --][0m, cur=--, cword=2, prev=completion
+[31;1m_medium_completion:[0m
+  commands = []
+  command_aliases = []
+  flags= [--help -h --config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= [--help]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = [bash zsh]
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium completion [32;1m--[34;1m][0m, cur=--, cword=2, prev=completion
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium completion [32;1m--[34;1m][0m, cur=--, cword=2, prev=completion
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--help --config= --config=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m -co][0m, cur=-co, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m -co][0m, cur=-co, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m-co[34;1m][0m, cur=-co, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m-co[34;1m][0m, cur=-co, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --co][0m, cur=--co, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --co][0m, cur=--co, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--co[34;1m][0m, cur=--co, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--co[34;1m][0m, cur=--co, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--config= --config=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --bo][0m, cur=--bo, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --bo][0m, cur=--bo, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --bo][0m, cur=--bo, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --bo][0m, cur=--bo, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--bo[34;1m][0m, cur=--bo, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--bo[34;1m][0m, cur=--bo, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --boo][0m, cur=--boo, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --boo][0m, cur=--boo, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --boo][0m, cur=--boo, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --boo][0m, cur=--boo, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--boo[34;1m][0m, cur=--boo, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--boo[34;1m][0m, cur=--boo, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --co][0m, cur=--co, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --co][0m, cur=--co, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --co][0m, cur=--co, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --co][0m, cur=--co, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--co[34;1m][0m, cur=--co, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--co[34;1m][0m, cur=--co, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --co][0m, cur=--co, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --co][0m, cur=--co, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --co][0m, cur=--co, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --co][0m, cur=--co, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--co[34;1m][0m, cur=--co, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--co[34;1m][0m, cur=--co, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --ti][0m, cur=--ti, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --ti][0m, cur=--ti, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --ti][0m, cur=--ti, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --ti][0m, cur=--ti, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--ti[34;1m][0m, cur=--ti, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--ti[34;1m][0m, cur=--ti, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --title=foo --][0m, cur=--, cword=3, prev=--title=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --title=foo --][0m, cur=--, cword=3, prev=--title=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --title=foo --][0m, cur=--, cword=3, prev=--title=foo
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --title=foo --][0m, cur=--, cword=3, prev=--title=foo
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--title=foo[34;1m --][0m, cur=--, cword=3, prev=--title=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--title=foo[34;1m --][0m, cur=--, cword=3, prev=--title=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium draft --title=foo [32;1m--[34;1m][0m, cur=--, cword=3, prev=--title=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=3[0m, words=[34;1m[medium draft --title=foo [32;1m--[34;1m][0m, cur=--, cword=3, prev=--title=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--bool --boolP --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config= --canonical-url= --integration-token= --string= --title= --config=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --title=foo --][0m, cur=--, cword=3, prev=--title=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --title=foo --][0m, cur=--, cword=3, prev=--title=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --title=foo --][0m, cur=--, cword=3, prev=--title=foo
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --title=foo --][0m, cur=--, cword=3, prev=--title=foo
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--title=foo[34;1m --][0m, cur=--, cword=3, prev=--title=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--title=foo[34;1m --][0m, cur=--, cword=3, prev=--title=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium draft --title=foo [32;1m--[34;1m][0m, cur=--, cword=3, prev=--title=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=3[0m, words=[34;1m[medium draft --title=foo [32;1m--[34;1m][0m, cur=--, cword=3, prev=--title=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--bool --boolP --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config= --canonical-url= --integration-token= --string= --title= --config=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --title=foo --bo][0m, cur=--bo, cword=3, prev=--title=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --title=foo --bo][0m, cur=--bo, cword=3, prev=--title=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config=]
+  two_word_flags = [--config= -c]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --title=foo --bo][0m, cur=--bo, cword=3, prev=--title=foo
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --title=foo --bo][0m, cur=--bo, cword=3, prev=--title=foo
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= --integration-token= --persistentBool --persistentBoolTrue --string= --title= --config=]
+  two_word_flags = [--canonical-url= -u --integration-token= -i --string= --title= -t --config= -c]
+  local_nonpersistent_flags= [--bool --boolP --canonical-url= --integration-token= --string= --title=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i --title= -t]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--title=foo[34;1m --bo][0m, cur=--bo, cword=3, prev=--title=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--title=foo[34;1m --bo][0m, cur=--bo, cword=3, prev=--title=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium draft --title=foo [32;1m--bo[34;1m][0m, cur=--bo, cword=3, prev=--title=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=3[0m, words=[34;1m[medium draft --title=foo [32;1m--bo[34;1m][0m, cur=--bo, cword=3, prev=--title=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--bool --boolP][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= -i= --title= -t=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --c][0m, cur=--c, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --c][0m, cur=--c, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --c][0m, cur=--c, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --c][0m, cur=--c, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--c[34;1m][0m, cur=--c, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--c[34;1m][0m, cur=--c, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --c][0m, cur=--c, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --c][0m, cur=--c, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --c][0m, cur=--c, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --c][0m, cur=--c, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--c[34;1m][0m, cur=--c, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--c[34;1m][0m, cur=--c, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft ][0m, cur=, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft ][0m, cur=, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m ][0m, cur=, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m ][0m, cur=, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m[34;1m][0m, cur=, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m[34;1m][0m, cur=, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= -i= --title= -t=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -][0m, cur=-, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-[34;1m][0m, cur=-, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= -i= --title= -t=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i][0m, cur=-i, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i][0m, cur=-i, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i][0m, cur=-i, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i][0m, cur=-i, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m][0m, cur=-i, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i[34;1m][0m, cur=-i, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[-i=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo][0m, cur=-i=foo, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo][0m, cur=-i=foo, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo][0m, cur=-i=foo, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo][0m, cur=-i=foo, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m][0m, cur=-i=foo, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m][0m, cur=-i=foo, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo][0m, cur=-i=foo, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo][0m, cur=-i=foo, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo][0m, cur=-i=foo, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo][0m, cur=-i=foo, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m][0m, cur=-i=foo, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m][0m, cur=-i=foo, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo ][0m, cur=, cword=3, prev=-i=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo ][0m, cur=, cword=3, prev=-i=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo ][0m, cur=, cword=3, prev=-i=foo
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo ][0m, cur=, cword=3, prev=-i=foo
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m ][0m, cur=, cword=3, prev=-i=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m ][0m, cur=, cword=3, prev=-i=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium draft -i=foo [32;1m[34;1m][0m, cur=, cword=3, prev=-i=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=3[0m, words=[34;1m[medium draft -i=foo [32;1m[34;1m][0m, cur=, cword=3, prev=-i=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo ][0m, cur=, cword=3, prev=-i=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo ][0m, cur=, cword=3, prev=-i=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo ][0m, cur=, cword=3, prev=-i=foo
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo ][0m, cur=, cword=3, prev=-i=foo
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m ][0m, cur=, cword=3, prev=-i=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m ][0m, cur=, cword=3, prev=-i=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium draft -i=foo [32;1m[34;1m][0m, cur=, cword=3, prev=-i=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=3[0m, words=[34;1m[medium draft -i=foo [32;1m[34;1m][0m, cur=, cword=3, prev=-i=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo --][0m, cur=--, cword=3, prev=-i=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo --][0m, cur=--, cword=3, prev=-i=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo --][0m, cur=--, cword=3, prev=-i=foo
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo --][0m, cur=--, cword=3, prev=-i=foo
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m --][0m, cur=--, cword=3, prev=-i=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m --][0m, cur=--, cword=3, prev=-i=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium draft -i=foo [32;1m--[34;1m][0m, cur=--, cword=3, prev=-i=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=3[0m, words=[34;1m[medium draft -i=foo [32;1m--[34;1m][0m, cur=--, cword=3, prev=-i=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--bool --boolP --canonical-url= --integration-token= --string= --title= --canonical-url= --integration-token= --string= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo --][0m, cur=--, cword=3, prev=-i=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo --][0m, cur=--, cword=3, prev=-i=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo --][0m, cur=--, cword=3, prev=-i=foo
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo --][0m, cur=--, cword=3, prev=-i=foo
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m --][0m, cur=--, cword=3, prev=-i=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m --][0m, cur=--, cword=3, prev=-i=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium draft -i=foo [32;1m--[34;1m][0m, cur=--, cword=3, prev=-i=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=3[0m, words=[34;1m[medium draft -i=foo [32;1m--[34;1m][0m, cur=--, cword=3, prev=-i=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--bool --boolP --canonical-url= --integration-token= --string= --title= --canonical-url= --integration-token= --string= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo -][0m, cur=-, cword=3, prev=-i=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo -][0m, cur=-, cword=3, prev=-i=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo -][0m, cur=-, cword=3, prev=-i=foo
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo -][0m, cur=-, cword=3, prev=-i=foo
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m -][0m, cur=-, cword=3, prev=-i=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m -][0m, cur=-, cword=3, prev=-i=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium draft -i=foo [32;1m-[34;1m][0m, cur=-, cword=3, prev=-i=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=3[0m, words=[34;1m[medium draft -i=foo [32;1m-[34;1m][0m, cur=-, cword=3, prev=-i=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t= --canonical-url= -u= --integration-token= -i= --string= --title= -t=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo -][0m, cur=-, cword=3, prev=-i=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo -][0m, cur=-, cword=3, prev=-i=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo -][0m, cur=-, cword=3, prev=-i=foo
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo -][0m, cur=-, cword=3, prev=-i=foo
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m -][0m, cur=-, cword=3, prev=-i=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m -][0m, cur=-, cword=3, prev=-i=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium draft -i=foo [32;1m-[34;1m][0m, cur=-, cword=3, prev=-i=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=3[0m, words=[34;1m[medium draft -i=foo [32;1m-[34;1m][0m, cur=-, cword=3, prev=-i=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t= --canonical-url= -u= --integration-token= -i= --string= --title= -t=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo -b][0m, cur=-b, cword=3, prev=-i=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft -i=foo -b][0m, cur=-b, cword=3, prev=-i=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo -b][0m, cur=-b, cword=3, prev=-i=foo
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m -i=foo -b][0m, cur=-b, cword=3, prev=-i=foo
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m -b][0m, cur=-b, cword=3, prev=-i=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m-i=foo[34;1m -b][0m, cur=-b, cword=3, prev=-i=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium draft -i=foo [32;1m-b[34;1m][0m, cur=-b, cword=3, prev=-i=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=3[0m, words=[34;1m[medium draft -i=foo [32;1m-b[34;1m][0m, cur=-b, cword=3, prev=-i=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[-b][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --][0m, cur=--, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --][0m, cur=--, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--[34;1m][0m, cur=--, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--[34;1m][0m, cur=--, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--config= --config=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config=][0m, cur=, cword=1, prev=--config
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config=][0m, cur=, cword=1, prev=--config
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config=[34;1m][0m, cur=, cword=1, prev=--config
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config=[34;1m][0m, cur=, cword=1, prev=--config
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --con][0m, cur=--con, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --con][0m, cur=--con, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--con[34;1m][0m, cur=--con, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--con[34;1m][0m, cur=--con, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--config= --config=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config=foo -][0m, cur=-, cword=2, prev=--config=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config=foo -][0m, cur=-, cword=2, prev=--config=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config=foo[34;1m -][0m, cur=-, cword=2, prev=--config=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config=foo[34;1m -][0m, cur=-, cword=2, prev=--config=foo
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium --config=foo [32;1m-[34;1m][0m, cur=-, cword=2, prev=--config=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium --config=foo [32;1m-[34;1m][0m, cur=-, cword=2, prev=--config=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--config= -c= --config= -c=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config=foo -][0m, cur=-, cword=2, prev=--config=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config=foo -][0m, cur=-, cword=2, prev=--config=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config=foo[34;1m -][0m, cur=-, cword=2, prev=--config=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config=foo[34;1m -][0m, cur=-, cword=2, prev=--config=foo
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium --config=foo [32;1m-[34;1m][0m, cur=-, cword=2, prev=--config=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium --config=foo [32;1m-[34;1m][0m, cur=-, cword=2, prev=--config=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--config= -c= --config= -c=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config=foo -][0m, cur=-, cword=2, prev=--config=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config=foo -][0m, cur=-, cword=2, prev=--config=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config=foo[34;1m -][0m, cur=-, cword=2, prev=--config=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config=foo[34;1m -][0m, cur=-, cword=2, prev=--config=foo
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium --config=foo [32;1m-[34;1m][0m, cur=-, cword=2, prev=--config=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium --config=foo [32;1m-[34;1m][0m, cur=-, cword=2, prev=--config=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--config= -c= --config= -c=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config=foo -c][0m, cur=-c, cword=2, prev=--config=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config=foo -c][0m, cur=-c, cword=2, prev=--config=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config=foo[34;1m -c][0m, cur=-c, cword=2, prev=--config=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config=foo[34;1m -c][0m, cur=-c, cword=2, prev=--config=foo
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium --config=foo [32;1m-c[34;1m][0m, cur=-c, cword=2, prev=--config=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium --config=foo [32;1m-c[34;1m][0m, cur=-c, cword=2, prev=--config=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[-c= -c=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m foo][0m, cur=foo, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m foo][0m, cur=foo, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mfoo[34;1m][0m, cur=foo, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mfoo[34;1m][0m, cur=foo, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m foo][0m, cur=foo, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m foo][0m, cur=foo, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mfoo[34;1m][0m, cur=foo, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mfoo[34;1m][0m, cur=foo, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m fo][0m, cur=fo, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m fo][0m, cur=fo, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mfo[34;1m][0m, cur=fo, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mfo[34;1m][0m, cur=fo, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m fo][0m, cur=fo, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m fo][0m, cur=fo, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mfo[34;1m][0m, cur=fo, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mfo[34;1m][0m, cur=fo, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m fo][0m, cur=fo, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m fo][0m, cur=fo, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mfo[34;1m][0m, cur=fo, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mfo[34;1m][0m, cur=fo, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m fo][0m, cur=fo, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m fo][0m, cur=fo, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mfo[34;1m][0m, cur=fo, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mfo[34;1m][0m, cur=fo, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ][0m, cur=, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m[34;1m][0m, cur=, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[completion draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m -][0m, cur=-, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m -][0m, cur=-, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m-[34;1m][0m, cur=-, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m-[34;1m][0m, cur=-, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--config= -c= --config= -c=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m -][0m, cur=-, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m -][0m, cur=-, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m-[34;1m][0m, cur=-, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m-[34;1m][0m, cur=-, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--config= -c= --config= -c=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ---][0m, cur=---, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ---][0m, cur=---, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m---[34;1m][0m, cur=---, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m---[34;1m][0m, cur=---, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ---][0m, cur=---, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m ---][0m, cur=---, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m---[34;1m][0m, cur=---, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m---[34;1m][0m, cur=---, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m dr][0m, cur=dr, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdr[34;1m][0m, cur=dr, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_command:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m --][0m, cur=--, cword=2, prev=draft
+[31;1m_medium_draft:[0m
+  commands = []
+  command_aliases = []
+  flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  two_word_flags = [--canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  local_nonpersistent_flags= [--bool --boolP -b --canonical-url= -u= --integration-token= -i= --string= --title= -t=]
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = [--integration-token= -i= --title= -t=]
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium draft [32;1m--[34;1m][0m, cur=--, cword=2, prev=draft
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[--integration-token= --title=][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft][0m, cur=draft, cword=1, prev=medium
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m draft][0m, cur=draft, cword=1, prev=medium
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m][0m, cur=draft, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1mdraft[34;1m][0m, cur=draft, cword=1, prev=medium
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config=foo ][0m, cur=, cword=2, prev=--config=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config=foo ][0m, cur=, cword=2, prev=--config=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config=foo[34;1m ][0m, cur=, cword=2, prev=--config=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config=foo[34;1m ][0m, cur=, cword=2, prev=--config=foo
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium --config=foo [32;1m[34;1m][0m, cur=, cword=2, prev=--config=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium --config=foo [32;1m[34;1m][0m, cur=, cword=2, prev=--config=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[completion draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config=foo ][0m, cur=, cword=2, prev=--config=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config=foo ][0m, cur=, cword=2, prev=--config=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config=foo[34;1m ][0m, cur=, cword=2, prev=--config=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config=foo[34;1m ][0m, cur=, cword=2, prev=--config=foo
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium --config=foo [32;1m[34;1m][0m, cur=, cword=2, prev=--config=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=2[0m, words=[34;1m[medium --config=foo [32;1m[34;1m][0m, cur=, cword=2, prev=--config=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[completion draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config foo ][0m, cur=, cword=3, prev=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config foo ][0m, cur=, cword=3, prev=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config[34;1m foo ][0m, cur=, cword=3, prev=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config[34;1m foo ][0m, cur=, cword=3, prev=foo
+[31;1m__medium_handle_word:[0m [32;1mc=2[0m, words=[34;1m[medium --config [32;1mfoo[34;1m ][0m, cur=, cword=3, prev=foo
+[31;1m__medium_handle_noun:[0m [32;1mc=2[0m, words=[34;1m[medium --config [32;1mfoo[34;1m ][0m, cur=, cword=3, prev=foo
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium --config foo [32;1m[34;1m][0m, cur=, cword=3, prev=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=3[0m, words=[34;1m[medium --config foo [32;1m[34;1m][0m, cur=, cword=3, prev=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[completion draft][0m
+
+[31;1m__medium_handle_word:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config foo ][0m, cur=, cword=3, prev=foo
+[31;1m__medium_handle_command:[0m [32;1mc=0[0m, words=[34;1m[[32;1mmedium[34;1m --config foo ][0m, cur=, cword=3, prev=foo
+[31;1m_medium_root_command:[0m
+  commands = [completion draft]
+  command_aliases = [dr drft]
+  flags= [--config= -c=]
+  two_word_flags = [--config= -c=]
+  local_nonpersistent_flags= []
+  flags_with_completion = []
+  flags_completion = []
+  must_have_one_flag = []
+  must_have_one_noun = []
+  noun_aliases= []
+  aliashash = keys[drft dr] values[draft draft]
+[31;1m__medium_handle_word:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config[34;1m foo ][0m, cur=, cword=3, prev=foo
+[31;1m__medium_handle_flag:[0m [32;1mc=1[0m, words=[34;1m[medium [32;1m--config[34;1m foo ][0m, cur=, cword=3, prev=foo
+__medium_handle_flag: found a flag --config, skip the next argument
+[31;1m__medium_handle_word:[0m [32;1mc=3[0m, words=[34;1m[medium --config foo [32;1m[34;1m][0m, cur=, cword=3, prev=foo
+[31;1m__medium_handle_reply:[0m [32;1mc=3[0m, words=[34;1m[medium --config foo [32;1m[34;1m][0m, cur=, cword=3, prev=foo
+[31;1m__medium_handle_reply:[0m COMPREPLY=[32;1m[completion draft][0m
+
